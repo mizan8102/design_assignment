@@ -1,0 +1,40 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-root {
+    background: #1A187A !important;
+    color: white !important;
+}
+
+.padding-s-e {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 750px;
+}
+
+.hero-bg {
+    background: url('../assets/images/sundhori_bg.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+    .padding-s-e {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
